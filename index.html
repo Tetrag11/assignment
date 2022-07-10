@@ -26,7 +26,20 @@
 </body>
 
 <div class="header">
-    <video class="banner-vid" src="./mov_bbb-1.mp4" loop autoplay muted></video>
+    <div class="box">
+        <div class="box-inner">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a onclick="closenav()" href="javascript:void(0)"><i class="fa fa-times" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <div class="video-wrapper">
+        <div class="filter"></div>
+        <video class="banner-vid" src="./mov_bbb-1.mp4" loop autoplay muted></video>
+    </div>
     <div class="nav-bar">
 
         <div class="navbar-links">
@@ -46,15 +59,9 @@
 
             <!-- mobile -->
             <div class="mobile-nav">
+                <img src="images/map.png" alt="">
                 <a onclick="opennav()" href="javascript:void(0)"><i class="fa fa-bars" aria-hidden="true"></i></a>
-                <div class="box">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                    <a onclick="closenav()" href="javascript:void(0)"><i class="fa fa-times" aria-hidden="true"></i>
-                    </a>
-                </div>
+
             </div>
             <div class="header-text mx-auto">
                 <div>
@@ -99,11 +106,12 @@
 
     <script>
         function opennav() {
-            document.querySelector('.box').style.height = "auto";
+            document.querySelector('.box').style.transform = "translateY(0)";
+
         }
 
         function closenav() {
-            document.querySelector('.box').style.height = "0";
+            document.querySelector('.box').style.transform = "translateY(-100%)";
         }
     </script>
 
