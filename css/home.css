@@ -159,6 +159,10 @@ footer {
   width: fit-content;
 }
 
+.footer-links a {
+  color: black;
+}
+
 .mobile-nav {
   display: none;
   width: 100%;
@@ -318,4 +322,58 @@ footer {
 
 .card-mid-img-filter {
   filter: brightness(0.1) drop-shadow(16px 16px 20px black);
+}
+
+.newsl {
+  height: 400px;
+  width: 300px;
+}
+
+.newsl-head {
+  font-size: calc(3vw + 3vh);
+  font-family: "epicride";
+  line-height: 1;
+  padding-top: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.newsl-head-title {
+  font-size: calc(1vw + 1vh);
+  font-family: "Akshar", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 75px;
+}
+
+.form-style {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Akshar", sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  text-decoration: none !important;
 }
