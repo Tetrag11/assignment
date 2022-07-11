@@ -272,8 +272,26 @@ footer {
 .buttons:hover {
   outline: none;
   box-shadow: 0 0 40px 40px black inset;
-  color: azure;
+  color: white;
   border-color: transparent;
+}
+
+.card-head {
+  font-size: calc(3vw + 1vh);
+  font-family: "Akshar", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  line-height: 1;
+  padding-top: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-head-text {
+  font-family: "ciutedella-regular";
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: calc(1vw + 1vh);
 }
 
 .card-img-wrap {
@@ -288,4 +306,16 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+.card-mid-img {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: center;
+}
+
+.card-mid-img-filter {
+  filter: brightness(0.1) drop-shadow(16px 16px 20px black);
 }

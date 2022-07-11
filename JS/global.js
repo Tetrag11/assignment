@@ -1,7 +1,8 @@
 function opennav() {
-    document.querySelector('.box').style.height = "auto";
+    document.querySelector('.box').style.transform = "translateY(0)";
+
 }
 
 function closenav() {
-    document.querySelector('.box').style.height = "0";
+    document.querySelector('.box').style.transform = "translateY(-100%)";
 }
