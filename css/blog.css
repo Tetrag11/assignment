@@ -1,0 +1,59 @@
+.backImg {
+    background-image: url(images/back4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.top1 {
+    font-family: "edutas";
+}
+
+.top2 {
+    font-family: "finla";
+}
+
+.top4 {
+    font-family: "rage";
+    font-size: 65px;
+    color: white;
+}
+
+.top5 {
+    font-family: "varela";
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+.top6 {
+    font-family: "varela";
+    font-size: 14px;
+    color: rgb(92, 57, 4);
+    font-weight: bolder;
+}
+
+.top6:hover {
+    color: rgb(184, 113, 8);
+    cursor: pointer;
+}
+
+.blogText {
+    font-family: "itim";
+}
+
+.blogger {
+    border: 6px solid rgb(114, 114, 114);
+    border-style: double;
+}
+
+.ytube:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: gold;
+    cursor: pointer;
+}
