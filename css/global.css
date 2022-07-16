@@ -112,6 +112,7 @@ hr {
     height: 200px;
 }
 
+
 @media (min-width: 992px) {
     .backImg {
         height: 30vh;
