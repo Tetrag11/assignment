@@ -1,0 +1,64 @@
+.header {
+    height: 12vh !important;
+    position: relative;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 12vh !important;
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar-links a {
+    color: black !important;
+}
+
+.navbar-links img {
+    filter: unset !important;
+}
+
+.backImg {
+    background-image: url(/contact_images/15.jpg);
+}
+
+.sect-head {
+    font-family: "epicride";
+    font-size: calc(3vw + 3vh);
+}
+
+.sect-text {
+    font-family: "ciutadella-regular";
+}
+
+.contact-wrap {
+    position: relative;
+}
+
+.lft-img {
+    width: 35%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    transition: ease-in-out 500ms;
+}
+
+.cnt-img {
+    width: 90%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.rgt-img {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    z-index: 2;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    transition: ease-in-out 500ms;
+}

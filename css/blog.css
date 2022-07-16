@@ -1,17 +1,3 @@
-.backImg {
-    background-image: url(/blog_images/back4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-}
-
-@media (min-width: 992px) {
-    .backImg {
-        height: 30vh;
-    }
-}
-
 .top1 {
     font-family: "epicride";
     font-size: calc(3vw + 3vh);
@@ -20,6 +6,8 @@
 .top2 {
     font-family: "Akshar", sans-serif;
     font-weight: 400;
+    letter-spacing: 0.2rem;
+    line-height: 1;
     font-size: calc(3vw + 1vh);
 }
 
@@ -110,4 +98,24 @@ ul li:hover {
 
 .navbar-links img {
     filter: unset !important;
+}
+
+.card {
+    width: 18rem;
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 16.5rem;
+    }
+}
+
+.backImg {
+    background-image: url(/blog_images/back4.jpg);
+}
+
+@media (min-width: 1200px) {
+    .newsl {
+        width: 275px !important;
+    }
 }

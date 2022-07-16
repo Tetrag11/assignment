@@ -1,0 +1,48 @@
+.backImg {
+    background-image: url(/images/colombo.png);
+}
+
+.header {
+    height: 12vh !important;
+    position: relative;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 12vh !important;
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar-links a {
+    color: black !important;
+}
+
+.navbar-links img {
+    filter: unset !important;
+}
+
+.top1 {
+    font-family: "epicride";
+    font-size: calc(3vw + 3vh);
+}
+
+.top2 {
+    font-family: "Akshar", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    font-size: calc(1vw + 1vh);
+    margin-bottom: 1rem;
+}
+
+.provinceImg {
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogText {
+    font-family: "ciutadella-regular";
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./css/global.css">
+
+    <!-- Home CSS -->
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+        defer></script>
+
+    <!-- JavaScript_Global -->
+    <script src="./JS/global.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="box">
+            <div class="box-inner">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./contact.html">Contact</a>
+                <a onclick="closenav()" href="javascript:void(0)"><i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="nav-bar">
+
+            <div class="navbar-links">
+
+                <!-- web -->
+                <div class="links">
+                    <div class="flex-end">
+                        <a href="./index.html">Home</a>
+                        <a href="./about.html">About</a>
+                    </div>
+                    <div class="flex-center"><img src="images/map.png" alt=""></div>
+                    <div class="flex-start">
+                        <a class="margin-left " href="./blog.html">Blog</a>
+                        <a href="./contact.html">Contact</a>
+                    </div>
+                </div>
+
+                <!-- mobile -->
+                <div class="mobile-nav">
+                    <img src="images/map.png" alt="">
+                    <a onclick="opennav()" href="javascript:void(0)"><i class="fa fa-bars" aria-hidden="true"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="col-12 backImg">
+            <div class="d-flex align-items-center h-100">
+                <div class="col-12 text-center">
+                    <h3 class="top4">CONTACT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section style="margin-top: 20px;margin-bottom: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 px-4">
+                    <div class="contact-wrap m-4 m-sm-3">
+                        <div>
+                            <img class="lft-img" src="./contact_images/2.jpg" alt="">
+                            <img class="lft-img" src="./contact_images/3.jpg" alt="">
+                            <img class="lft-img" src="./contact_images/4.jpg" alt="">
+                            <img class="lft-img" src="./contact_images/5.jpg" alt="">
+                            <img class="lft-img" src="./contact_images/12.jpg" alt="">
+                        </div>
+                        <img class="cnt-img" src="./contact_images/1.jpg" alt="">
+                        <div>
+                            <img class="rgt-img" src="./contact_images/7.jpg" alt="">
+                            <img class="rgt-img" src="./contact_images/8.jpg" alt="">
+                            <img class="rgt-img" src="./contact_images/9.jpg" alt="">
+                            <img class="rgt-img" src="./contact_images/10.jpg" alt="">
+                            <img class="rgt-img" src="./contact_images/11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-5 px-4">
+                    <h2 class="sect-head">Get in Touch</h2>
+                    <h4 class="sect-text">
+                        To contact Mani Mughal, please fill out the form below.
+                    </h4>
+                    <div class="mb-3" style="margin-top:20px ;">
+                        <label for="exampleFormControlInput1" class="sect-text mb-1">Name:</label>
+                        <input type="email" class="form-style" id="exampleFormControlInput1" placeholder="Mani Mughal">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="sect-text mb-1">Email address:</label>
+                        <input type="email" class="form-style" id="exampleFormControlInput1"
+                            placeholder="manimughal@sltravelbuddy.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="sect-text mb-1">Your message:</label>
+                        <textarea class="form-style" id="exampleFormControlTextarea1" rows="3"
+                            style="height: 300px;"></textarea>
+                    </div>
+                    <button type="submit" class="buttons mx-auto"
+                        style="min-width: 8rem; border-color: black; border-width: 3px;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsl mx-auto">
+        <h2 class="newsl-head">Stay in the Loop</h2>
+        <div class="d-flex justify-content-center align-items-center">
+            <div>
+                <hr>
+            </div>
+            <p class="newsl-head-title px-2">NEWSLETTER</p>
+            <div>
+                <hr>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form action="" class="w-100">
+                <input class="form-style mt-4 mb-2" type="email" placeholder="Email Address">
+                <button class="buttons mx-0" style="width: 100%; border-color: black; border-width: 3px;"
+                    type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <p>Â© 2022 Ron Podmore, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>

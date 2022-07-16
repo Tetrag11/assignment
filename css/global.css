@@ -33,9 +33,10 @@
     border-radius: 7px;
     min-width: 12rem;
     height: 3rem;
-    padding: 0;
+    padding: 1rem;
     margin: 1rem;
     font-family: "Akshar", sans-serif;
+    line-height: 1;
     font-size: 1rem;
     transition: 200ms ease-in, color 200ms ease-out;
 }
@@ -70,8 +71,15 @@
 }
 
 .newsl {
-    height: 400px;
+    min-height: 400px;
     width: 275px;
+}
+
+@media (min-width: 1200px) {
+    .newsl {
+        width: 400px;
+        margin-bottom: 3rem;
+    }
 }
 
 .newsl-head {
@@ -95,4 +103,30 @@
 
 hr {
     width: 75px;
+}
+
+.backImg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    .backImg {
+        height: 30vh;
+    }
+}
+
+.top4 {
+    font-family: "Bebas Neue";
+    font-size: calc(4vw + 2vh);
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

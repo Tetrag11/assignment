@@ -1,4 +1,4 @@
-.intro-sect {
+.sect {
   background-color: #EEEEEE;
   justify-content: center;
   align-items: center;
@@ -7,6 +7,8 @@
 .intro-img {
   border-radius: 50%;
   width: 80%;
+  border: 6px solid rgb(114, 114, 114);
+  border-style: double;
 }
 
 @media (max-width:576px) {
@@ -66,4 +68,20 @@
 
 .card-mid-img-filter {
   filter: brightness(0.1) drop-shadow(16px 16px 20px black);
+}
+
+.top5 {
+  font-family: "epicride";
+  font-size: calc(2vw + 1vh);
+  line-height: 0.9;
+  color: black;
+}
+
+.top2 {
+  font-family: "Akshar", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  font-size: calc(2vw + 1vh);
+  margin-bottom: 1rem;
 }
