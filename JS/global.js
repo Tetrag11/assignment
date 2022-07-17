@@ -20,7 +20,11 @@ function changelft() {
     if (slide > slides.length - 1) {
         slide = 0;
     }
-    slides[slide].style.opacity = 1;
+
+    if (slides[slide]) {
+        slides[slide].style.opacity = 1;
+    }
+
 }
 
 setInterval(changelft, 4000);
@@ -38,7 +42,11 @@ function changergt() {
     if (zlide > zlides.length - 1) {
         zlide = 0;
     }
-    zlides[slide].style.opacity = 1;
+
+    if (zlides[zlide]) {
+        zlides[zlide].style.opacity = 1;
+    }
+
 }
 
 setInterval(changergt, 3500);

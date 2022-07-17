@@ -1,5 +1,5 @@
 .sect {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   justify-content: center;
   align-items: center;
 }
@@ -11,7 +11,7 @@
   border-style: double;
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .intro-img {
     width: 50%;
   }
@@ -47,6 +47,7 @@
 .card-img-wrap {
   position: relative;
   padding-top: 250px;
+  overflow: hidden;
 }
 
 .card-img-top {
@@ -55,6 +56,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  transition: transform 1s ease-out;
   object-fit: cover;
   object-position: center;
 }
@@ -68,6 +70,10 @@
 
 .card-mid-img-filter {
   filter: brightness(0.1) drop-shadow(16px 16px 20px black);
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
 }
 
 .top5 {

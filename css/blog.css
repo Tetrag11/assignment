@@ -29,13 +29,13 @@
 
 .top6 {
     font-family: "Akshar", sans-serif;
-    font-size: calc(.5vw + 1vh);
+    font-size: calc(0.5vw + 1vh);
     bottom: 0;
     color: black;
 }
 
 .top6:hover {
-    color: #CCCCCC;
+    color: #cccccc;
     cursor: pointer;
 }
 
@@ -43,7 +43,6 @@
     font-family: "epicride";
     font-size: calc(2vw + 2vh);
 }
-
 
 .blogText {
     font-family: "ciutadella-regular";
@@ -58,11 +57,17 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform 1s ease-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
 }
 
 .card-img-wrap {
     position: relative;
     padding-top: 250px;
+    overflow: hidden;
 }
 
 .blogger {
@@ -71,12 +76,12 @@
 }
 
 .ytube:hover {
-    color: #CCCCCC;
+    color: #cccccc;
     cursor: pointer;
 }
 
 ul li:hover {
-    color: #CCCCCC;
+    color: #cccccc;
     cursor: pointer;
 }
 

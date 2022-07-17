@@ -10,7 +10,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 .footer-links {
@@ -19,6 +19,12 @@ footer {
 
 .footer-links a {
     color: black;
+    padding: 5px 5px;
+}
+
+.footer-links a:hover {
+    color: #cccccc;
+    padding: 5px 5px;
 }
 
 a {

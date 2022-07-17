@@ -79,6 +79,10 @@
     margin-right: 70px;
 }
 
+.navbar-links a:hover {
+    color: rgb(134, 134, 128) !important;
+}
+
 .mobile-nav {
     display: none;
     width: 100%;
@@ -144,8 +148,8 @@
 }
 
 /* .navbar-links div:nth-child(1) {
-  justify-content: end;
-} */
+    justify-content: end;
+  } */
 
 .flex-center {
     display: flex;
@@ -168,8 +172,6 @@
 .margin-left {
     margin-left: 70px;
 }
-
-
 
 .header-text {
     width: 70%;
